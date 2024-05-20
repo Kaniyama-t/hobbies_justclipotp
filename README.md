@@ -14,8 +14,9 @@ Just run `clipotp.ps1` to copy the OTP to the clipboard.
 
 ## Usage
 
-Create a shortcut to your desktop.
-
+1. Clone this repository or download [here](https://github.com/Kaniyama-t/hobbies_justclipotp/archive/refs/heads/master.zip).
+2. (If you got zip file, plz unzip it.)
+3. Create a shortcut to your desktop.
 ```
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy RemoteSigned -File "C:\<<<The path to clipotp.ps1>>>"
 ```
