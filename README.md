@@ -11,12 +11,14 @@ Just run `clipotp.ps1` to copy the OTP to the clipboard.
     - The official document is [here](https://developer.1password.com/docs/cli/get-started).
 - Create `config/clipotp.json` before using.
     - Please refer to `clipotp.json.example` for creating.
+    - To get item id, plz run the command `op item list --vault "<<TYPE_VAULTNAME_HERE>>"`.
 
 ## Usage
 
 1. Clone this repository or download [here](https://github.com/Kaniyama-t/hobbies_justclipotp/archive/refs/heads/master.zip).
 2. (If you got zip file, plz unzip it.)
-3. Create a shortcut to your desktop.
+3. Create a config file that `config/clipotp.json`.
+4. Create a shortcut to your desktop.
 ```
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy RemoteSigned -File "C:\<<<The path to clipotp.ps1>>>"
 ```
